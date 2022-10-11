@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="17" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-11T14:35:26 EDT" name="Amazon" finished-at="2022-10-11T14:55:01 EDT" duration-ms="1175441">
+    <groups>
+      <group name="Pagination">
+        <method signature="SearchSortFilterTest.PaginationCheck()[pri:15, instance:testLayer.SearchSortFilterTest@a1153bc]" name="PaginationCheck" class="testLayer.SearchSortFilterTest"/>
+      </group> <!-- Pagination -->
+      <group name="SortFilterPagination">
+        <method signature="SearchSortFilterTest.SortFilterPagination()[pri:17, instance:testLayer.SearchSortFilterTest@a1153bc]" name="SortFilterPagination" class="testLayer.SearchSortFilterTest"/>
+      </group> <!-- SortFilterPagination -->
+      <group name="Filter">
+        <method signature="SearchSortFilterTest.FilterRating()[pri:10, instance:testLayer.SearchSortFilterTest@a1153bc]" name="FilterRating" class="testLayer.SearchSortFilterTest"/>
+        <method signature="SearchSortFilterTest.FilterSavings()[pri:11, instance:testLayer.SearchSortFilterTest@a1153bc]" name="FilterSavings" class="testLayer.SearchSortFilterTest"/>
+        <method signature="SearchSortFilterTest.FilterBrand()[pri:12, instance:testLayer.SearchSortFilterTest@a1153bc]" name="FilterBrand" class="testLayer.SearchSortFilterTest"/>
+        <method signature="SearchSortFilterTest.FilterPrice()[pri:13, instance:testLayer.SearchSortFilterTest@a1153bc]" name="FilterPrice" class="testLayer.SearchSortFilterTest"/>
+        <method signature="SearchSortFilterTest.FilterAvailability()[pri:14, instance:testLayer.SearchSortFilterTest@a1153bc]" name="FilterAvailability" class="testLayer.SearchSortFilterTest"/>
+      </group> <!-- Filter -->
+      <group name="Search">
+        <method signature="SearchSortFilterTest.Searching()[pri:1, instance:testLayer.SearchSortFilterTest@a1153bc]" name="Searching" class="testLayer.SearchSortFilterTest"/>
+        <method signature="SearchSortFilterTest.ProductInformation()[pri:2, instance:testLayer.SearchSortFilterTest@a1153bc]" name="ProductInformation" class="testLayer.SearchSortFilterTest"/>
+      </group> <!-- Search -->
+      <group name="Sort">
+        <method signature="SearchSortFilterTest.SortPriceLowandHigh()[pri:5, instance:testLayer.SearchSortFilterTest@a1153bc]" name="SortPriceLowandHigh" class="testLayer.SearchSortFilterTest"/>
+        <method signature="SearchSortFilterTest.SortRating()[pri:6, instance:testLayer.SearchSortFilterTest@a1153bc]" name="SortRating" class="testLayer.SearchSortFilterTest"/>
+        <method signature="SearchSortFilterTest.SortNewest()[pri:7, instance:testLayer.SearchSortFilterTest@a1153bc]" name="SortNewest" class="testLayer.SearchSortFilterTest"/>
+        <method signature="SearchSortFilterTest.SortPopular()[pri:8, instance:testLayer.SearchSortFilterTest@a1153bc]" name="SortPopular" class="testLayer.SearchSortFilterTest"/>
+        <method signature="SearchSortFilterTest.FilterNewArrivals()[pri:9, instance:testLayer.SearchSortFilterTest@a1153bc]" name="FilterNewArrivals" class="testLayer.SearchSortFilterTest"/>
+      </group> <!-- Sort -->
+      <group name="SortandFilter">
+        <method signature="SearchSortFilterTest.SortandFilter()[pri:16, instance:testLayer.SearchSortFilterTest@a1153bc]" name="SortandFilter" class="testLayer.SearchSortFilterTest"/>
+      </group> <!-- SortandFilter -->
+    </groups>
+    <test started-at="2022-10-11T14:35:26 EDT" name="SearchSortFilterModule" finished-at="2022-10-11T14:55:01 EDT" duration-ms="1175441">
+      <class name="testLayer.SearchSortFilterTest">
+        <test-method is-config="true" signature="SignIn()[pri:0, instance:testLayer.SearchSortFilterTest@a1153bc]" started-at="2022-10-11T14:35:26 EDT" name="SignIn" finished-at="2022-10-11T14:35:28 EDT" duration-ms="2071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method signature="Searching()[pri:1, instance:testLayer.SearchSortFilterTest@a1153bc]" started-at="2022-10-11T14:35:28 EDT" name="Searching" finished-at="2022-10-11T14:35:40 EDT" duration-ms="12070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searching -->
+        <test-method signature="ProductInformation()[pri:2, instance:testLayer.SearchSortFilterTest@a1153bc]" started-at="2022-10-11T14:35:40 EDT" name="ProductInformation" finished-at="2022-10-11T14:35:45 EDT" duration-ms="5260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductInformation -->
+        <test-method signature="Next()[pri:4, instance:testLayer.SearchSortFilterTest@a1153bc]" started-at="2022-10-11T14:35:45 EDT" name="Next" finished-at="2022-10-11T14:35:50 EDT" duration-ms="4839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Next -->
+        <test-method signature="SortPriceLowandHigh()[pri:5, instance:testLayer.SearchSortFilterTest@a1153bc]" started-at="2022-10-11T14:35:50 EDT" name="SortPriceLowandHigh" finished-at="2022-10-11T14:36:24 EDT" duration-ms="34282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortPriceLowandHigh -->
+        <test-method signature="SortRating()[pri:6, instance:testLayer.SearchSortFilterTest@a1153bc]" started-at="2022-10-11T14:36:24 EDT" name="SortRating" finished-at="2022-10-11T14:39:43 EDT" duration-ms="198715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortRating -->
+        <test-method signature="SortNewest()[pri:7, instance:testLayer.SearchSortFilterTest@a1153bc]" started-at="2022-10-11T14:39:43 EDT" name="SortNewest" finished-at="2022-10-11T14:39:50 EDT" duration-ms="6935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortNewest -->
+        <test-method signature="SortPopular()[pri:8, instance:testLayer.SearchSortFilterTest@a1153bc]" started-at="2022-10-11T14:39:50 EDT" name="SortPopular" finished-at="2022-10-11T14:39:57 EDT" duration-ms="6945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortPopular -->
+        <test-method signature="FilterNewArrivals()[pri:9, instance:testLayer.SearchSortFilterTest@a1153bc]" started-at="2022-10-11T14:39:57 EDT" name="FilterNewArrivals" finished-at="2022-10-11T14:40:04 EDT" duration-ms="7315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterNewArrivals -->
+        <test-method signature="FilterRating()[pri:10, instance:testLayer.SearchSortFilterTest@a1153bc]" started-at="2022-10-11T14:40:04 EDT" name="FilterRating" finished-at="2022-10-11T14:40:07 EDT" duration-ms="3074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterRating -->
+        <test-method signature="FilterSavings()[pri:11, instance:testLayer.SearchSortFilterTest@a1153bc]" started-at="2022-10-11T14:40:07 EDT" name="FilterSavings" finished-at="2022-10-11T14:40:10 EDT" duration-ms="2665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterSavings -->
+        <test-method signature="FilterBrand()[pri:12, instance:testLayer.SearchSortFilterTest@a1153bc]" started-at="2022-10-11T14:40:10 EDT" name="FilterBrand" finished-at="2022-10-11T14:40:13 EDT" duration-ms="2657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterBrand -->
+        <test-method signature="FilterPrice()[pri:13, instance:testLayer.SearchSortFilterTest@a1153bc]" started-at="2022-10-11T14:40:13 EDT" name="FilterPrice" finished-at="2022-10-11T14:40:15 EDT" duration-ms="2534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterPrice -->
+        <test-method signature="FilterAvailability()[pri:14, instance:testLayer.SearchSortFilterTest@a1153bc]" started-at="2022-10-11T14:40:15 EDT" name="FilterAvailability" finished-at="2022-10-11T14:40:18 EDT" duration-ms="2633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FilterAvailability -->
+        <test-method signature="PaginationCheck()[pri:15, instance:testLayer.SearchSortFilterTest@a1153bc]" started-at="2022-10-11T14:40:18 EDT" name="PaginationCheck" finished-at="2022-10-11T14:42:55 EDT" duration-ms="157645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaginationCheck -->
+        <test-method signature="SortandFilter()[pri:16, instance:testLayer.SearchSortFilterTest@a1153bc]" started-at="2022-10-11T14:42:55 EDT" name="SortandFilter" finished-at="2022-10-11T14:43:16 EDT" duration-ms="21099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortandFilter -->
+        <test-method signature="SortFilterPagination()[pri:17, instance:testLayer.SearchSortFilterTest@a1153bc]" started-at="2022-10-11T14:43:16 EDT" name="SortFilterPagination" finished-at="2022-10-11T14:55:01 EDT" duration-ms="704371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortFilterPagination -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testLayer.SearchSortFilterTest@a1153bc]" started-at="2022-10-11T14:55:01 EDT" name="close" finished-at="2022-10-11T14:55:01 EDT" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testLayer.SearchSortFilterTest -->
+    </test> <!-- SearchSortFilterModule -->
+  </suite> <!-- Amazon -->
+</testng-results>

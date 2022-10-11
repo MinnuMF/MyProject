@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Amazon]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="SearchSortFilterModule(failed)">
+    <classes>
+      <class name="testLayer.SearchSortFilterTest">
+        <methods>
+          <include name="FilterNewArrivals"/>
+          <include name="FilterSavings"/>
+          <include name="close"/>
+          <include name="SignIn"/>
+        </methods>
+      </class> <!-- testLayer.SearchSortFilterTest -->
+    </classes>
+  </test> <!-- SearchSortFilterModule(failed) -->
+</suite> <!-- Failed suite [Amazon] -->

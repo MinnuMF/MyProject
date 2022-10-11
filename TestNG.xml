@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Amazon" parallel="tests">
+	<test name="SignIn" allow-return-values="true">
+		<classes>
+		<class name="testLayer.SignInTest" />
+		</classes>
+	</test>
+	<test name="YourOrdersModule" allow-return-values="true">
+		<classes>
+		<class name="testLayer.YourOrdersTest" />
+		</classes>
+	</test>
+	<test name="YourAddressModule" allow-return-values="true">
+		<classes>
+		<class name="testLayer.YourAddressTest" />
+		</classes>
+	</test>	
+	<test name="SearchSortFilterModule" allow-return-values="true">
+		<classes>
+		<class name="testLayer.SearchSortFilterTest" />
+		</classes>
+	</test>	
+	<test name="ShoppingCart" allow-return-values="true">
+		<classes>
+		<class name="testLayer.ShoppingCartTest" />
+		</classes>
+	</test>	
+	<test name="YourPayments" allow-return-values="true">
+		<classes>
+		<class name="testLayer.YourPaymentsTest" />
+		</classes>
+	</test>	
+	<test name="CreateAccount" allow-return-values="true">
+		<classes>
+		<class name="createAccount.CreateAccount" />
+		</classes>
+	</test>					
+</suite>
